@@ -38,6 +38,7 @@ public class CommonActions {
 	public void ff(WebElement ele)
 	{
 		driver.switchTo().frame(ele);
+		System.out.println("switched into frame");
 	}
 	
 	public void dispayornot(WebElement ele)
