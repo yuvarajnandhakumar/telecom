@@ -21,11 +21,13 @@ public class CommonActions {
 	public void instertext(WebElement ele, String value) 
 	{
 		ele.sendKeys(value);
+		System.out.println("element is inserted");
 	}
 	
 	public void submit(WebElement ele)
 	{
 		ele.click();
+		System.out.println("element is clicked");
 	}
 	
 	public void draganddrop()
